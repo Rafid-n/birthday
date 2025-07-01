@@ -443,7 +443,7 @@ function Page4({ onNext, setCurrentPage }: { onNext: () => void; setCurrentPage:
         onConfirm={handleWarning3Confirm}
         onBack={() => {}}
         title="WARNING hatiku hancur... 💔😵"
-        message="Baiklah... aku kecewa dan sedih😔. Aku gak nyangka kamu akan menolak aku dan perjalanan kita. Hatiku benar-benar hancur sekarang... 😭💔💥"
+        message="Baiklah... aku kecewa dan sedih😔. Aku gak nyangka kamu akan menolak aku dan perjalanan kita. Hatiku benar-benar hancur sekarang... 😭💔💥. Kamu yakin masih mau lanjut dengan keputusan kamu itu?"
         showBackButton={false}
       />
     </div>
