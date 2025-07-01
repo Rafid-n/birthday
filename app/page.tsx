@@ -155,6 +155,9 @@ function Page1({ onNext }: { onNext: () => void }) {
           <p className="text-lg md:text-xl text-gray-600 leading-relaxed font-medium">
             Today is my girlfie's special day, and I want to make it as wonderful as you, sayang! 😋✨
           </p>
+          <p className="text-l text-gray-400 leading-relaxed font-medium">
+            Made in Bantul, 4 Juli 2025
+          </p>
         </div>
       </div>
 
