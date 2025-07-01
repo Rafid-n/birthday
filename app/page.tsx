@@ -289,33 +289,33 @@ function Page4({ onNext, setCurrentPage }: { onNext: () => void; setCurrentPage:
   const ourPhotos = [
     {
       id: 1,
-      url: "/IMG_20200402_160850_886.jpg?height=300&width=300", // Ganti dengan foto kalian
+      url: "/blue.jpeg?height=300&width=300", // Ganti dengan foto kalian
       caption: "Our first (officially captured) date 😗💕",
     },
     {
       id: 2,
-      url: "/placeholder.svg?height=300&width=300", // Ganti dengan foto kalian
-      caption: "Saat kita jalan-jalan 🌸",
+      url: "/night.jpg?height=300&width=300", // Ganti dengan foto kalian
+      caption: "Our meet at promnight 🌸",
     },
     {
       id: 3,
-      url: "/placeholder.svg?height=300&width=300", // Ganti dengan foto kalian
-      caption: "Momen romantis kita 💖",
+      url: "/RR.JPG?height=300&width=300", // Ganti dengan foto kalian
+      caption: "Our photo for yearbook 💖",
     },
     {
       id: 4,
-      url: "/placeholder.svg?height=300&width=300", // Ganti dengan foto kalian
-      caption: "Selfie lucu kita 😄",
+      url: "/SOON.png?height=300&width=300", // Ganti dengan foto kalian
+      caption: "Our cute selfie 😄 (maybe hehehe)",
     },
     {
       id: 5,
-      url: "/placeholder.svg?height=300&width=300", // Ganti dengan foto kalian
-      caption: "Dinner romantis 🍽️",
+      url: "/SOON.png?height=300&width=300", // Ganti dengan foto kalian
+      caption: "When we hold hands 🤝 (maybe soon)",
     },
     {
       id: 6,
-      url: "/placeholder.svg?height=300&width=300", // Ganti dengan foto kalian
-      caption: "Liburan bersama 🏖️",
+      url: "/SOON.png?height=300&width=300", // Ganti dengan foto kalian
+      caption: "When we were on holiday together 🏖️ (are we?)",
     },
   ]
 
@@ -493,7 +493,7 @@ function Page5Yes({ onStartOver }: { onStartOver: () => void }) {
             <p className="text-2xl md:text-3xl font-bold text-pink-600 font-dancing">
               Thank u sooooo muchhh, my pretty gorgeous girl! 😘💕
             </p>
-            <p className="text-xl md:text-2xl font-bold">I'M SO INCREDIBLY HAPPY RIGHT NOwwW!!! 🥰</p>
+            <p className="text-xl md:text-2xl font-bold">I'M SOOO INCREDIBLY HAPPY RIGHT NOWWW!!! 🥰</p>
             <p className="text-lg md:text-xl font-semibold">My heart is literally EXPLODING with joy! 💗💖</p>
             <p className="text-xl md:text-2xl font-bold text-gray-700">Love u sooooo f***ing much! 😍</p>
             <p className="text-lg md:text-xl text-pink-600 font-bold font-dancing">
