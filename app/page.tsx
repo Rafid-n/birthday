@@ -129,15 +129,15 @@ function Page1({ onNext }: { onNext: () => void }) {
 
       {/* Floating love messages */}
       <div className="absolute top-1/4 left-8 bg-pink-200/80 backdrop-blur-sm rounded-full px-4 py-2 text-sm font-medium text-pink-700 animate-bounce delay-300 hidden md:block">
-        Love you! 💕
+        I Love You! 💕
       </div>
       <div className="absolute bottom-1/3 right-8 bg-purple-200/80 backdrop-blur-sm rounded-full px-4 py-2 text-sm font-medium text-purple-700 animate-bounce delay-700 hidden md:block">
-        You're amazing! ✨
+        You're Amazing! ✨
       </div>
       <div className="max-w-4xl mx-auto">
         <div className="mb-8 relative">
           <h1 className="text-6xl md:text-8xl font-black bg-gradient-to-r from-pink-500 via-purple-500 to-rose-500 bg-clip-text text-transparent mb-4 animate-pulse font-pacifico">
-            🎉 HAPPY ! 🎂
+            🎉 HAPPY BIRTHDAY SAYANG! 🎂
           </h1>
           <div className="flex justify-center gap-4 text-4xl md:text-6xl mb-6">
             <span className="animate-bounce">🎈</span>
@@ -265,7 +265,7 @@ function Page3({ onNext }: { onNext: () => void }) {
           </p>
 
           {/* Custom Audio Player */}
-          <AudioPlayer audioUrl="/selamat-ulang-tahun.mp3" title="Selamat Ulang Tahun - Gellen Martadinata 💕" />
+          <AudioPlayer audioUrl="/Selamat-Ulang-Tahun.mp3" title="Selamat Ulang Tahun Sayangku 💕" />
         </div>
       </div>
 
@@ -288,7 +288,7 @@ function Page4({ onNext, setCurrentPage }: { onNext: () => void; setCurrentPage:
   const ourPhotos = [
     {
       id: 1,
-      url: "/placeholder.svg?height=300&width=300", // Ganti dengan foto kalian
+      url: "/IMG_20200402_160850_886.jpg?height=300&width=300", // Ganti dengan foto kalian
       caption: "Kencan pertama kita 💕",
     },
     {
