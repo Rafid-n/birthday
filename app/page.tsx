@@ -487,7 +487,7 @@ function Page5Yes({ onStartOver }: { onStartOver: () => void }) {
         <div className="text-8xl md:text-[10rem] mb-8 animate-bounce">😊</div>
         <div className="bg-white/90 backdrop-blur-sm rounded-3xl p-8 md:p-12 shadow-2xl border border-pink-200 mb-8">
           <p className="text-3xl md:text-5xl font-black bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent mb-6 leading-relaxed font-pacifico">
-            YESSSSS!!! 🎉✨💕
+            YESSSS!!! 🎉✨💕
           </p>
           <div className="space-y-4 text-gray-700">
             <p className="text-2xl md:text-3xl font-bold text-pink-600 font-dancing">
