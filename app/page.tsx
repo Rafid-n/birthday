@@ -179,10 +179,10 @@ function Page2({ onNext }: { onNext: () => void }) {
 
       {/* Floating romantic quotes */}
       <div className="absolute top-1/3 left-4 bg-rose-200/80 backdrop-blur-sm rounded-2xl px-3 py-2 text-xs font-medium text-rose-700 animate-float hidden lg:block">
-        Forever yours 💕
+        Forever Yours 💕
       </div>
       <div className="absolute bottom-1/2 right-4 bg-pink-200/80 backdrop-blur-sm rounded-2xl px-3 py-2 text-xs font-medium text-pink-700 animate-float delay-500 hidden lg:block">
-        My lover 💖
+        My Lover 💖
       </div>
       <div className="max-w-4xl mx-auto">
         <div className="bg-white/90 backdrop-blur-sm rounded-3xl p-8 md:p-12 shadow-2xl border border-pink-200">
@@ -221,7 +221,7 @@ function Page2({ onNext }: { onNext: () => void }) {
                 I know that this semester is very shibal, but you did it, you got through it. You did sooo greaatt, babee. 
                 But don't forget that you're still have next semester, so stay strong and stay healthy yaaa. And I pray 
                 that in the next semester and also in the following years you'll be given many good things, given 
-                ease in everything, and lastly, hopefully in the next semester you'll love me more. Mwehehehehe 😚😋.
+                ease in everything, and lastly, hopefully in the next semester and so on you'll love me more. Mwehehehehe 😚😋.
                 
                 I'm so grateful for every second we've spent together, and I can't wait to create countless more beautiful 
                 memories with you again, sayangku. Thank uuuu for being the most amazing person in my life. I love you more 
@@ -258,7 +258,7 @@ function Page3({ onNext }: { onNext: () => void }) {
       <div className="absolute bottom-1/4 right-16 text-2xl animate-bounce delay-700">♫</div>
       <div className="max-w-4xl mx-auto text-center">
         <div className="bg-white/90 backdrop-blur-sm rounded-3xl p-8 md:p-12 shadow-2xl border border-pink-200 mb-8">
-          <h2 className="text-4xl md:text-5xl font-black bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent mb-6 font-pacifico leading-normal">
+          <h2 className="text-4xl md:text-5xl font-black bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent mb-6 font-pacifico leading-relaxed">
             🎵 Birthday Song 🎵
           </h2>
           <p className="text-xl text-gray-700 mb-8 font-semibold">
