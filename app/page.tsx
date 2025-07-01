@@ -43,9 +43,9 @@ export default function BirthdayWebsite() {
         <div className="absolute bottom-1/4 left-16 text-2xl animate-bounce delay-600">🦋</div>
         <div className="absolute bottom-16 right-1/4 text-3xl animate-pulse delay-800">🌺</div>
         <div className="absolute top-1/2 left-1/6 text-2xl animate-bounce delay-1000">🎀</div>
-        <div className="absolute top-2/3 right-1/6 text-2xl animate-pulse delay-1200">🌙</div>
-        <div className="absolute bottom-1/3 left-1/2 text-3xl animate-bounce delay-400">✨</div>
-        <div className="absolute top-1/6 right-1/2 text-2xl animate-pulse delay-900">🌟</div>
+        <div className="absolute top-2/3 right-1/6 text-2xl animate-pulse delay-1200">💌</div>
+        <div className="absolute bottom-1/3 left-1/2 text-3xl animate-bounce delay-400">🎁</div>
+        <div className="absolute top-1/6 right-1/2 text-2xl animate-pulse delay-900">🌷</div>
 
         {/* Floating circles */}
         <div className="absolute top-1/4 left-1/3 w-4 h-4 bg-pink-200 rounded-full animate-ping delay-200"></div>
@@ -132,7 +132,7 @@ function Page1({ onNext }: { onNext: () => void }) {
         I Love You! 💕
       </div>
       <div className="absolute bottom-1/3 right-8 bg-purple-200/80 backdrop-blur-sm rounded-full px-4 py-2 text-sm font-medium text-purple-700 animate-bounce delay-700 hidden md:block">
-        You're Amazing! ✨
+        You're Amazing, Babe! ✨
       </div>
       <div className="max-w-4xl mx-auto">
         <div className="mb-8 relative">
@@ -140,9 +140,9 @@ function Page1({ onNext }: { onNext: () => void }) {
             🎉 HAPPY BIRTHDAY SAYANG! 🎂
           </h1>
           <div className="flex justify-center gap-4 text-4xl md:text-6xl mb-6">
-            <span className="animate-bounce">🎈</span>
+            <span className="animate-bounce">🎉</span>
             <span className="animate-bounce delay-100">🎁</span>
-            <span className="animate-bounce delay-200">🌟</span>
+            <span className="animate-bounce delay-200">✨</span>
             <span className="animate-bounce delay-300">💖</span>
             <span className="animate-bounce delay-400">🎊</span>
           </div>
@@ -150,10 +150,10 @@ function Page1({ onNext }: { onNext: () => void }) {
 
         <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-pink-200">
           <p className="text-2xl md:text-3xl text-gray-700 font-bold mb-4 font-dancing">
-            To My Beautiful Girlfriend 💕
+            Made with Full of Love, Especially for My Beautiful Girlfriend 💕
           </p>
           <p className="text-lg md:text-xl text-gray-600 leading-relaxed font-medium">
-            Today is your special day, and I want to make it as magical as you make every day of my life! ✨
+            Today is my girlfie's special day, and I want to make it as wonderful as you, sayang! 😋✨
           </p>
         </div>
       </div>
@@ -162,7 +162,7 @@ function Page1({ onNext }: { onNext: () => void }) {
         onClick={onNext}
         className="fixed bottom-6 right-6 bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white px-8 py-3 rounded-full text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
       >
-        Lanjut 💖
+        Lanjut 💌
       </Button>
     </div>
   )
@@ -172,8 +172,8 @@ function Page2({ onNext }: { onNext: () => void }) {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-6 relative">
       {/* Romantic corner decorations */}
-      <div className="absolute top-6 left-6 text-3xl animate-pulse">🌹</div>
-      <div className="absolute top-6 right-6 text-3xl animate-bounce">💐</div>
+      <div className="absolute top-6 left-6 text-3xl animate-pulse">🌷</div>
+      <div className="absolute top-6 right-6 text-3xl animate-bounce">😻</div>
       <div className="absolute bottom-24 left-6 text-3xl animate-pulse delay-500">🦋</div>
       <div className="absolute bottom-24 right-6 text-3xl animate-bounce delay-300">🌺</div>
 
@@ -182,12 +182,12 @@ function Page2({ onNext }: { onNext: () => void }) {
         Forever yours 💕
       </div>
       <div className="absolute bottom-1/2 right-4 bg-pink-200/80 backdrop-blur-sm rounded-2xl px-3 py-2 text-xs font-medium text-pink-700 animate-float delay-500 hidden lg:block">
-        My heart 💖
+        My lover 💖
       </div>
       <div className="max-w-4xl mx-auto">
         <div className="bg-white/90 backdrop-blur-sm rounded-3xl p-8 md:p-12 shadow-2xl border border-pink-200">
           <h2 className="text-4xl md:text-5xl font-black text-center bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent mb-8 font-pacifico">
-            🌹 My Heartfelt Wishes 🌹
+            🌹 My Heartfelt Wishes for You 🌹
           </h2>
 
           <div className="space-y-6 text-gray-700">
@@ -209,22 +209,23 @@ function Page2({ onNext }: { onNext: () => void }) {
             <div className="bg-purple-50 rounded-2xl p-6 border-l-4 border-purple-400">
               <h3 className="text-xl font-bold text-purple-700 mb-3 font-dancing">🙏 My Prayers for You:</h3>
               <p className="text-lg leading-relaxed font-medium">
-                I pray that God blesses you with good health, inner peace, and strength to overcome any challenges. May
+                I pray that you are given good health, inner peace, and strength to overcome any challenges. May
                 you always be surrounded by love, protected from harm, and guided towards your purpose. You are such a
                 precious soul, and I pray for your happiness always. 💜
               </p>
             </div>
 
             <div className="bg-rose-50 rounded-2xl p-6 border-l-4 border-rose-400">
-              <h3 className="text-xl font-bold text-rose-700 mb-3 font-dancing">💖 About Our Journey:</h3>
+              <h3 className="text-xl font-bold text-rose-700 mb-3 font-dancing">💖 Your Journey:</h3>
               <p className="text-lg leading-relaxed font-medium">
-                Every moment with you feels like a beautiful dream that I never want to wake up from. You've brought so
-                much light into my life, turning ordinary days into extraordinary memories. Your laugh is my favorite
-                sound, your smile is my daily sunshine, and your love is my greatest treasure. Through every season
-                we've shared, you've shown me what true love really means. You're not just my girlfriend; you're my best
-                friend, my confidant, my inspiration, and my heart's home. I'm so grateful for every second we've spent
-                together, and I can't wait to create countless more beautiful memories with you. Thank you for being the
-                most amazing person in my life. I love you more than words could ever express! 🌹✨
+                I know that this semester is very shibal, but you did it, you got through it. You did sooo greaatt, babee. 
+                But don't forget that you're still have next semester, so stay strong and stay healthy yaaa. And I pray 
+                that in the next semester and also in the following years you'll be given many good things, given 
+                ease in everything, and lastly, hopefully in the next semester you'll love me more. Mwehehehehe. 😚😋
+                
+                I'm so grateful for every second we've spent together, and I can't wait to create countless more beautiful 
+                memories with you again, sayangku. Thank uuuu for being the most amazing person in my life. I love you more 
+                than words could ever express! ❣️🌷✨
               </p>
             </div>
           </div>
@@ -235,7 +236,7 @@ function Page2({ onNext }: { onNext: () => void }) {
         onClick={onNext}
         className="fixed bottom-6 right-6 bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white px-8 py-3 rounded-full text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
       >
-        Lanjut 💕
+        Lanjut 🎵
       </Button>
     </div>
   )
@@ -258,14 +259,14 @@ function Page3({ onNext }: { onNext: () => void }) {
       <div className="max-w-4xl mx-auto text-center">
         <div className="bg-white/90 backdrop-blur-sm rounded-3xl p-8 md:p-12 shadow-2xl border border-pink-200 mb-8">
           <h2 className="text-4xl md:text-5xl font-black bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent mb-6 font-pacifico">
-            🎵 Our Special Song 🎵
+            🎵 Birthday Song 🎵
           </h2>
           <p className="text-xl text-gray-700 mb-8 font-semibold">
-            This song reminds me of you and all the beautiful moments we share together 💕
+            Play this special song on your special day ✨
           </p>
 
           {/* Custom Audio Player */}
-          <AudioPlayer audioUrl="/Selamat-Ulang-Tahun.mp3" title="Selamat Ulang Tahun Sayangku 💕" />
+          <AudioPlayer audioUrl="/Selamat-Ulang-Tahun.mp3" title="Selamat Ulang Tahun, Sayangku 💕" />
         </div>
       </div>
 
@@ -273,7 +274,7 @@ function Page3({ onNext }: { onNext: () => void }) {
         onClick={onNext}
         className="fixed bottom-6 right-6 bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white px-8 py-3 rounded-full text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
       >
-        Lanjut 🎵
+        Lanjut 💕
       </Button>
     </div>
   )
@@ -289,7 +290,7 @@ function Page4({ onNext, setCurrentPage }: { onNext: () => void; setCurrentPage:
     {
       id: 1,
       url: "/IMG_20200402_160850_886.jpg?height=300&width=300", // Ganti dengan foto kalian
-      caption: "Kencan pertama kita 💕",
+      caption: "Our first (officially captured) date 😗💕",
     },
     {
       id: 2,
@@ -383,12 +384,15 @@ function Page4({ onNext, setCurrentPage }: { onNext: () => void; setCurrentPage:
             ))}
           </div>
 
-          <div className="text-center mb-8">
+          <div className="flex flex-col items-center text-center">
             <p className="text-xl md:text-2xl text-gray-700 mb-6 leading-relaxed font-semibold">
-              Yah fotonya masih dikit banget ya 😅
+              Yaahhh... fotonya masih dikit banget yaaa 😅😞
             </p>
             <p className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-pink-600 to-purple-600 bg-clip-text text-transparent font-dancing">
-              Would u like to make a more journey with me? 💕
+              Would u like to make a more journey with me, babe? 💕
+            </p>
+            <p className="text-l text-gray-500 mb-3">
+              note: klik foto/gambar buat munculin caption
             </p>
           </div>
 
@@ -398,13 +402,13 @@ function Page4({ onNext, setCurrentPage }: { onNext: () => void; setCurrentPage:
               onClick={handleNoClick}
               className="bg-gradient-to-r from-gray-400 to-gray-500 hover:from-gray-500 hover:to-gray-600 text-white px-8 py-3 rounded-full text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
             >
-              No 😔
+              No 😔😣
             </Button>
             <Button
               onClick={() => setCurrentPage(6)}
               className="bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600 text-white px-8 py-3 rounded-full text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
             >
-              Yes! 💖
+              Yes! 🥰💖
             </Button>
           </div>
         </div>
@@ -417,7 +421,7 @@ function Page4({ onNext, setCurrentPage }: { onNext: () => void; setCurrentPage:
         onConfirm={handleWarning1Confirm}
         onBack={handleWarning1Back}
         title="Tunggu dulu... 🥺"
-        message="Apakah kamu yakin ingin menolak perjalanan indah kita bersama? Aku harap kamu bisa mempertimbangkan lagi... 💕"
+        message="Kamu yakin nolak aku? Aku harap kamu bisa mempertimbangkan lagi... 🥹"
       />
 
       <WarningPopup
@@ -425,8 +429,8 @@ function Page4({ onNext, setCurrentPage }: { onNext: () => void; setCurrentPage:
         onClose={() => setShowWarning2(false)}
         onConfirm={handleWarning2Confirm}
         onBack={handleWarning2Back}
-        title="Benarkah kamu yakin? 💔"
-        message="Aku benar-benar berharap kita bisa melanjutkan cerita cinta kita. Apakah kamu benar-benar yakin ingin mengakhiri semua ini? Hatiku akan sangat terluka... 😢"
+        title="Kamu beneran yakin? 💔"
+        message="Aku benar-benar berharap kamu mau membuat banyak petualangan dan kenangan baru bareng aku. Kamu benar-benar yakin menolak aku? Hatiku akan sangat terluka... 😥"
       />
 
       <WarningPopup
@@ -434,8 +438,8 @@ function Page4({ onNext, setCurrentPage }: { onNext: () => void; setCurrentPage:
         onClose={() => setShowWarning3(false)}
         onConfirm={handleWarning3Confirm}
         onBack={() => {}}
-        title="Hatiku hancur... 💔😭"
-        message="Baiklah... aku sangat kecewa dan sedih. Aku tidak pernah menyangka kamu akan menolak cinta kita. Hatiku benar-benar hancur sekarang. Semoga suatu hari nanti kamu akan menyesal dengan keputusan ini... 😭💔"
+        title="WARNING hatiku hancur... 💔😭😵"
+        message="Baiklah... aku kecewa dan sedih😔. Aku gak nyangka kamu akan menolak aku dan perjalanan kita. Hatiku benar-benar hancur sekarang... 😭💔💥"
         showBackButton={false}
       />
     </div>
@@ -449,18 +453,18 @@ function Page5No({ onStartOver }: { onStartOver: () => void }) {
         <div className="text-9xl md:text-[12rem] mb-8 animate-pulse">😢</div>
         <div className="bg-white/90 backdrop-blur-sm rounded-3xl p-8 md:p-12 shadow-2xl border border-gray-200 mb-8">
           <p className="text-3xl md:text-4xl text-gray-600 font-bold mb-6 font-dancing">
-            Aww... that makes me really sad 💔
+            It's hurt... that makes me really sad 💔😖
           </p>
           <div className="space-y-4 text-gray-700">
             <p className="text-xl md:text-2xl font-semibold">
               I was hoping we could continue this beautiful journey together... 😔
             </p>
-            <p className="text-lg md:text-xl">My heart feels a little broken right now, but I understand 💔</p>
+            <p className="text-lg md:text-xl">My heart feels a broken into pieces right now... 💔</p>
             <p className="text-lg md:text-xl">
-              I guess I'll just have to love you from here, hoping someday you'll change your mind 🥺
+              I'm hoping someday you'll change your mind 🥺
             </p>
             <p className="text-base md:text-lg text-gray-600 italic">
-              Maybe this isn't the end of our story... maybe it's just a pause? 😢
+              Maybe u can think about it again? 😢
             </p>
           </div>
         </div>
@@ -487,20 +491,20 @@ function Page5Yes({ onStartOver }: { onStartOver: () => void }) {
           </p>
           <div className="space-y-4 text-gray-700">
             <p className="text-2xl md:text-3xl font-bold text-pink-600 font-dancing">
-              Thank u sooooo muchhh, my pretty gorgeous girl! 💕
+              Thank u sooooo muchhh, my pretty gorgeous girl! 😘💕
             </p>
-            <p className="text-xl md:text-2xl font-bold">I'M SO INCREDIBLY HAPPY RIGHT NOW!!! 🥳</p>
-            <p className="text-lg md:text-xl font-semibold">My heart is literally EXPLODING with joy! 💥💖</p>
+            <p className="text-xl md:text-2xl font-bold">I'M SO INCREDIBLY HAPPY RIGHT NOwwW!!! 🥰</p>
+            <p className="text-lg md:text-xl font-semibold">My heart is literally EXPLODING with joy! 💗💖</p>
             <p className="text-xl md:text-2xl font-bold text-gray-700">Love u sooooo f***ing much! 😍</p>
             <p className="text-lg md:text-xl text-pink-600 font-bold font-dancing">
-              Let's make a more journey together babeee! 🌟💖✨
+              Let's make a more journey together, babeee! 🧑🏻‍🤝‍👩🏻💖✨
             </p>
             <div className="mt-6 p-4 bg-gradient-to-r from-pink-100 to-purple-100 rounded-2xl">
               <p className="text-lg md:text-xl font-semibold text-purple-700">
-                I can't wait to create a million more beautiful memories with you! 🌈💕
+                I can't wait to create a million more beautiful memories with you, sayangku cintakuuu! 💓🌷💕
               </p>
               <p className="text-base md:text-lg text-pink-700 mt-2">
-                You just made me the happiest person alive! Thank you for choosing US! 🥰✨
+                You just made me the happiest person alive! Thank uuu for choosing ME, darlinggg! 🥰✨
               </p>
             </div>
           </div>
