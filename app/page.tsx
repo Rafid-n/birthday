@@ -258,7 +258,7 @@ function Page3({ onNext }: { onNext: () => void }) {
       <div className="absolute bottom-1/4 right-16 text-2xl animate-bounce delay-700">♫</div>
       <div className="max-w-4xl mx-auto text-center">
         <div className="bg-white/90 backdrop-blur-sm rounded-3xl p-8 md:p-12 shadow-2xl border border-pink-200 mb-8">
-          <h2 className="text-4xl md:text-5xl font-black bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent mb-6 font-pacifico leading-tight">
+          <h2 className="text-4xl md:text-5xl font-black bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent mb-6 font-pacifico leading-normal">
             🎵 Birthday Song 🎵
           </h2>
           <p className="text-xl text-gray-700 mb-8 font-semibold">
