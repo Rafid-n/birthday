@@ -222,12 +222,13 @@ function Page2({ onNext }: { onNext: () => void }) {
               <h3 className="text-xl font-bold text-rose-700 mb-3 font-dancing">💖 Your Journey:</h3>
               <p className="text-lg leading-relaxed font-medium">
                 I know that this semester is very shibal, but you did it, you got through it. You did sooo greaatt, babee. 
-                But don't forget that you're still have next semester, so stay strong and stay healthy yaaa. And I pray 
-                that in the next semester and also in the following years you'll be given many good things, given 
-                ease in everything, and lastly, hopefully in the next semester and so on you'll love me more. Mwehehehehe 😚😋.
+                And I'm so proud of youuu. But don't forget that you're still have next semester, so stay strong and stay 
+                healthy yaaa. And I pray that in the next semester and also in the following years you'll be given many good 
+                things, given ease in everything, and lastly, hopefully in the next semester and so on you'll love me more. 
+                Mwehehehehe 😚😋.
                 
                 I'm so grateful for every second we've spent together, and I can't wait to create countless more beautiful 
-                memories with you again, sayangku. Thank uuuu for being the most amazing person in my life. I love you more 
+                memories with you again, sayangku. Thank uuuu for being the amazing person in my life. I love you more 
                 than words could ever express! ❣️🌷✨
               </p>
             </div>
