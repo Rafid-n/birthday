@@ -108,7 +108,7 @@ export default function AudioPlayer({ audioUrl, title = "Our Special Song" }: Au
       <div className="text-center mb-6">
         <div className="text-6xl mb-4 animate-pulse">🎵</div>
         <h3 className="text-xl font-semibold text-gray-700 mb-2">{title}</h3>
-        <p className="text-sm text-gray-600">{isLoaded ? "Lagu cinta kita siap diputar 💕" : "Memuat lagu... 🎶"}</p>
+        <p className="text-sm text-gray-600">{isLoaded ? "Lagu siap diputar 🎂" : "Memuat lagu... 🎶"}</p>
       </div>
 
       {/* Progress Bar */}
@@ -152,8 +152,6 @@ export default function AudioPlayer({ audioUrl, title = "Our Special Song" }: Au
         />
         <span className="text-xs text-gray-600 w-8">{volume}%</span>
       </div>
-
-      <p className="text-xs text-center text-gray-500 mt-4">🎧 Lagu ini akan terus menemani perjalanan cinta kita...</p>
     </div>
   )
 }

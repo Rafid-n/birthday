@@ -351,8 +351,8 @@ function Page4({ onNext, setCurrentPage }: { onNext: () => void; setCurrentPage:
       {/* Photo-themed decorations */}
       <div className="absolute top-6 left-6 text-3xl animate-pulse">📸</div>
       <div className="absolute top-6 right-6 text-3xl animate-bounce">🖼️</div>
-      <div className="absolute bottom-32 left-6 text-3xl animate-pulse delay-300">💑</div>
-      <div className="absolute bottom-32 right-6 text-3xl animate-bounce delay-600">👫</div>
+      <div className="absolute bottom-32 left-6 text-3xl animate-pulse delay-300">🧑🏻‍🤝‍👩🏻</div>
+      <div className="absolute bottom-32 right-6 text-3xl animate-bounce delay-600">🫶</div>
 
       {/* Memory bubbles */}
       <div className="absolute top-1/4 left-8 bg-gradient-to-r from-pink-200 to-purple-200 rounded-full w-8 h-8 animate-ping delay-200 hidden md:block"></div>
@@ -438,7 +438,7 @@ function Page4({ onNext, setCurrentPage }: { onNext: () => void; setCurrentPage:
         onClose={() => setShowWarning3(false)}
         onConfirm={handleWarning3Confirm}
         onBack={() => {}}
-        title="WARNING hatiku hancur... 💔😭😵"
+        title="WARNING hatiku hancur... 💔😵"
         message="Baiklah... aku kecewa dan sedih😔. Aku gak nyangka kamu akan menolak aku dan perjalanan kita. Hatiku benar-benar hancur sekarang... 😭💔💥"
         showBackButton={false}
       />
