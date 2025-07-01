@@ -187,7 +187,7 @@ function Page2({ onNext }: { onNext: () => void }) {
       <div className="max-w-4xl mx-auto">
         <div className="bg-white/90 backdrop-blur-sm rounded-3xl p-8 md:p-12 shadow-2xl border border-pink-200">
           <h2 className="text-4xl md:text-5xl font-black text-center bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent mb-8 font-pacifico">
-            🌹 My Heartfelt Wishes for You 🌹
+            My Heartfelt Wishes for You 🍀
           </h2>
 
           <div className="space-y-6 text-gray-700">
@@ -202,7 +202,7 @@ function Page2({ onNext }: { onNext: () => void }) {
               <p className="text-lg leading-relaxed font-medium">
                 I wish you endless happiness, boundless love, and all the beautiful moments life can offer. May your
                 dreams come true and may every day bring you closer to everything your heart desires. You deserve all
-                the joy in the world, my beautiful girl! 🌟
+                the joy in the world, my beautiful girl! ✨
               </p>
             </div>
 
@@ -211,7 +211,7 @@ function Page2({ onNext }: { onNext: () => void }) {
               <p className="text-lg leading-relaxed font-medium">
                 I pray that you are given good health, inner peace, and strength to overcome any challenges. May
                 you always be surrounded by love, protected from harm, and guided towards your purpose. You are such a
-                precious soul, and I pray for your happiness always. 💜
+                precious soul, and every prayer I whisper carries your name, my darling angel... 💜
               </p>
             </div>
 
@@ -258,7 +258,7 @@ function Page3({ onNext }: { onNext: () => void }) {
       <div className="absolute bottom-1/4 right-16 text-2xl animate-bounce delay-700">♫</div>
       <div className="max-w-4xl mx-auto text-center">
         <div className="bg-white/90 backdrop-blur-sm rounded-3xl p-8 md:p-12 shadow-2xl border border-pink-200 mb-8">
-          <h2 className="text-4xl md:text-5xl font-black bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent mb-6 font-pacifico">
+          <h2 className="text-4xl md:text-5xl font-black bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent mb-6 font-pacifico leading-tight">
             🎵 Birthday Song 🎵
           </h2>
           <p className="text-xl text-gray-700 mb-8 font-semibold">
@@ -491,7 +491,7 @@ function Page5Yes({ onStartOver }: { onStartOver: () => void }) {
           </p>
           <div className="space-y-4 text-gray-700">
             <p className="text-2xl md:text-3xl font-bold text-pink-600 font-dancing">
-              Thank u sooooo muchhh, my pretty gorgeous girl! 😘💕
+              Thank u soooo muchhh, my pretty gorgeous girl 😘💕
             </p>
             <p className="text-xl md:text-2xl font-bold">I'M SOOO INCREDIBLY HAPPY RIGHT NOWWW!!! 🥰</p>
             <p className="text-lg md:text-xl font-semibold">My heart is literally EXPLODING with joy! 💗💖</p>
