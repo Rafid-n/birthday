@@ -137,7 +137,7 @@ function Page1({ onNext }: { onNext: () => void }) {
       <div className="max-w-4xl mx-auto">
         <div className="mb-8 relative">
           <h1 className="text-6xl md:text-8xl font-black bg-gradient-to-r from-pink-500 via-purple-500 to-rose-500 bg-clip-text text-transparent mb-4 animate-pulse font-pacifico">
-            🎉 HAPPY BIRTHDAY! 🎂
+            🎉 HAPPY ! 🎂
           </h1>
           <div className="flex justify-center gap-4 text-4xl md:text-6xl mb-6">
             <span className="animate-bounce">🎈</span>
